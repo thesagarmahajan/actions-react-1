@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+// The App Component | parent of all other components
 function App() {
   return (
     <div className="App">
