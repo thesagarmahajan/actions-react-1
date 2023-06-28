@@ -24,7 +24,7 @@ jobs:
               run: npm install
             - name: Build Project
               run: npm run build
-            - name: Upload Artifacts
+            - name: Upload Artifacts!
               uses: actions/upload-artifact@v3
               with:
                 name: build-files
